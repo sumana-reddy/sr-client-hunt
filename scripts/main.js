@@ -6,8 +6,6 @@
  * @author Sumana Reddy Reddybathula
  */
 window.addEventListener('load', (main) => {
-    console.log("page is fully loaded");
+    console.log("Loaded Page");
   });
 
-locationElement.addEventListener('click', locationHandler);
-locationElement.addEventListener('touch', locationHandler);
