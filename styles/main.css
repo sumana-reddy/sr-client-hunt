@@ -5,28 +5,24 @@ h1 {
     }
     
     #error-message {        
-        color: red;
-        padding: 40px;
+        color: red;        
         text-align: center;
       }
 
       #location {
-        color: rgb(26, 95, 49);
-        padding: 40px;
+        color: rgb(26, 95, 49);        
         text-align: center;
 
       }
 
       #device-lat {
         color: rgb(26, 95, 49);
-        padding: 40px;
         text-align: center;
 
       }
 
       #device-long {
         color: rgb(26, 95, 49);
-        padding: 40px;
         text-align: center;
 
       }
