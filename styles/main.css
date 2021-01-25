@@ -1,0 +1,33 @@
+article {
+    text-align: center;
+    text-shadow: royalblue;
+    color: black;
+    }
+    
+    #error-message {        
+        color: red;
+        padding: 40px;
+        text-align: center;
+      }
+
+      #location {
+        color: rgb(26, 95, 49);
+        padding: 40px;
+        text-align: center;
+
+      }
+
+      #device-lat {
+        color: rgb(26, 95, 49);
+        padding: 40px;
+        text-align: center;
+
+      }
+
+      #device-long {
+        color: rgb(26, 95, 49);
+        padding: 40px;
+        text-align: center;
+
+      }
+
