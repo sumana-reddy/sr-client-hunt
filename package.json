@@ -1,0 +1,19 @@
+{
+  "name": "sr-client-hunt",
+  "version": "1.0.0",
+  "description": "A cloud repo for hunt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumana-reddy/sr-client-hunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumana-reddy/sr-client-hunt/issues"
+  },
+  "homepage": "https://github.com/sumana-reddy/sr-client-hunt#readme"
+}
