@@ -42,9 +42,9 @@ async function getLocation() {
 async function locationHandler() {
     let locText = await getLocation();
     currentlat = locText.coords.latitude;
-    document.getElementById("device-lat").innerHTML = "This is about device-lat: " + currentlat.toFixed(6);
+    document.getElementById("device-lat").innerHTML = "Your device-latitude: " + currentlat.toFixed(6);
     currentlon = locText.coords.longitude;
-    document.getElementById("device-long").innerHTML = "This is about device-long: " + currentlon.toFixed(6);
+    document.getElementById("device-long").innerHTML = "Your device longitude: " + currentlon.toFixed(6);
 
     locationsArray.forEach(function (value) {
         if (isInside(value.Latitude, value.Longitude)) {
@@ -56,7 +56,7 @@ async function locationHandler() {
     // In case of any error where if the device is not 30m range it displays error.
 
     if(error) {
-        document.getElementById("error-message").innerHTML = "You're not in range of 30m.";
+        document.getElementById("error-message").innerHTML = "You're not in the radius range.";
     } else {
         document.getElementById("error-message").innerHTML = "";
     }
