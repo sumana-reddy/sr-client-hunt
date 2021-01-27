@@ -1,5 +1,5 @@
 // import default object with a local camelCase name
-import locationsArray from '../init-location.js';
+import locationsArray from '../init-locations.js';
 
 const inside = (device, bounds) => {
   // console.log(`CHECKING inside ${bounds.Name}`);
