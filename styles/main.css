@@ -27,3 +27,39 @@ h1 {
 
       }
 
+    /*  footer {
+        background-color: #FFF;
+        position:fixed;
+        bottom: 20px;
+        width: 400px;
+        text-align: center;
+        align: center;
+        }
+
+        footer {
+          background: rgb(23, 65, 47);
+    height: 10px;
+    margin: auto;
+    width: 200px;
+    text-align:center;
+    padding:10px;
+    position: center;
+    color:#ffffff;
+
+        }*/
+
+        .footer {
+  position: fixed;
+  left: 0;
+  height: 50px;
+  bottom: 5px;
+  width: 100%;
+  background-color: rgb(24, 75, 53);
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-align: center;
+}
