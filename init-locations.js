@@ -4,12 +4,9 @@ export default [
       
     {
         Name: '5860 Mc cRIMMON Parkway',
-        North: 35.8416, 
-        West: -78.85,
-        South: 35.851, 
-        East: -78.858,
-          Notes: 'circle',
-      },
+        North: 35.841638, 
+        West: -78.852915,
+     },
         
     
     {
