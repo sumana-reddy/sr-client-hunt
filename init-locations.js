@@ -3,7 +3,7 @@
 export default [
       
     {
-        Name: '5860 Mc cRIMMON Parkway',
+        Name: 'McCrimon Parkway',
         North: 35.841638, 
         West: -78.852915,
      },
