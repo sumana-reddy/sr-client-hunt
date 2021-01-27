@@ -18,14 +18,6 @@ const inside = (device, bounds) => {
   return ans;
 };
 
-/**
- * Get the location
- * Uses new import / export - be sure to set type="module" in HTML
- * Can be easily added to any web page.
- * Includes GeoLocation API example.
- * @module location/getLocation
- * @author Sumana Reddy
- */
 export default function getLocation() {
   if (!navigator.geolocation) {
     document.querySelector('#error-message').innerHTML =
