@@ -13,9 +13,11 @@ export default [
         
     
     {
-        Name: 'North West Missouri State University',
-        North: 40.351952674389615, 
-        West: -94.88241701431218,       
+        Name: 'Church street',
+        North: 35.84130569183489, 
+         West: -78.84562338819433, 
+        South: 35.841962060207784, 
+         East: -78.84440884868386, 
     }
       
   ];
