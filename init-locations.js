@@ -21,6 +21,7 @@ export default [
         Notes: 'circle',
       Attachments: '',
       'Quest-Location': 'your current location-Home',
+    },
         
     {
       Name: 'Faustiana Two',
