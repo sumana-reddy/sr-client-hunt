@@ -6,6 +6,8 @@ export default [
         Name: 'McCrimon Parkway',
         North: 35.8416, 
         West: -78.852915,
+          South: 35.8425,
+            East: -78.844,
      },
         
     
