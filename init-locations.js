@@ -11,6 +11,17 @@ export default [
       Attachments: '',
       'Quest-Location': 'Faustiana-Faustiana One',
     },
+    
+    {
+        Name: '5860 Mc cRIMMON Parkway',
+        North: 35.84234912578917, 
+        West: -78.84515738749143,
+        South: 35.84234912578917, 
+        East: -78.84515738749143,        
+        Notes: 'circle',
+      Attachments: '',
+      'Quest-Location': 'your current location-Home',
+        
     {
       Name: 'Faustiana Two',
       North: 40.343579,
