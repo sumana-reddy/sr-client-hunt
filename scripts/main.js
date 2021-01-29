@@ -64,7 +64,7 @@ async function locationHandler() {
        let innerHTML = "Sorry You're not in the radius range.";
         document.getElementById("error-message").innerHTML = innerHTML;
         const utterance = new SpeechSynthesisUtterance(innerHTML);
-        utterance.text = `Sorry You're not in the radius range.`;
+        //utterance.text = `Sorry You're not in the radius range.`;
         window.speechSynthesis.speak(utterance);
     } else {
         document.getElementById("error-message").innerHTML = "";
