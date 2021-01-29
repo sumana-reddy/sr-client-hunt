@@ -50,7 +50,7 @@ async function locationHandler() {
         if (isInside(value.Latitude, value.Longitude)) {
             document.getElementById("locationAnswer").innerHTML = value.Name;
             const utterance = new SpeechSynthesisUtterance();
-            utterance.text = `Congratulations! From Sumana, You found the location ${name}`;
+            utterance.text = `Congratulations! From Sumana, You found the location ${value.Name}`;
             window.speechSynthesis.speak(utterance);
             error = false;
         }
@@ -59,7 +59,10 @@ async function locationHandler() {
     // In case of any error where if the device is not 30m range it displays error.
 
     if(error) {
-        document.getElementById("error-message").innerHTML = "You're not in the radius range.";
+       // document.getElementById("error-message").innerHTML = "You're not in the radius range.";
+        const utterance = new SpeechSynthesisUtterance();
+        utterance.text = `Sorry You're not in the radius range.`;
+        window.speechSynthesis.speak(utterance);
     } else {
         document.getElementById("error-message").innerHTML = "";
     }
