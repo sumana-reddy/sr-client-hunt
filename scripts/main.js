@@ -49,6 +49,9 @@ async function locationHandler() {
     locationsArray.forEach(function (value) {
         if (isInside(value.Latitude, value.Longitude)) {
             document.getElementById("locationAnswer").innerHTML = value.Name;
+            const utterance = new SpeechSynthesisUtterance();
+            utterance.text = `Congratulations! From Sumana, You found the location ${name}`;
+            window.speechSynthesis.speak(utterance);
             error = false;
         }
     });
