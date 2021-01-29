@@ -60,7 +60,10 @@ async function locationHandler() {
 
     if(error) {
        // document.getElementById("error-message").innerHTML = "You're not in the radius range.";
-        const utterance = new SpeechSynthesisUtterance();
+
+       let innerHTML = "Sorry You're not in the radius range.";
+        document.getElementById("error-message").innerHTML = innerHTML;
+        const utterance = new SpeechSynthesisUtterance(innerHTML);
         utterance.text = `Sorry You're not in the radius range.`;
         window.speechSynthesis.speak(utterance);
     } else {
