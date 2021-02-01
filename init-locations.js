@@ -25,7 +25,7 @@ export default [
      West: -78.844673,
      South: 35.8416, 
      East: -78.852915,
-      }
+      },
       
       {
             Name: 'Khammam', 
