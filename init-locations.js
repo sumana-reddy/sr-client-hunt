@@ -20,7 +20,7 @@ export default [
     },
       
       {
-            Name: 'Wegmans'      
+            Name: 'Wegmans', 
      North: 35.842437,
      West: -78.844673,
      South: 35.8416, 
