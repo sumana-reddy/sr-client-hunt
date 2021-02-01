@@ -17,6 +17,15 @@ export default [
         West: -78.844,
         South: 35.849, 
         East: -78.845,
-    }
+    },
+      
+      {
+            Name: 'Wegmans'      
+     North: 35.842437,
+     West: -78.844673,
+     South: 35.8416, 
+     East: -78.852915,
+      }
+      
       
   ];
