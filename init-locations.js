@@ -29,10 +29,9 @@ export default [
       
       {
             Name: 'Khammam', 
-     North: 16.918570,
-     West: 80.361061,
-     South: 16.919, 
-     East: 80.3621,
+     Latitude: 16.918545,
+    Longitude: 80.361114,
+   
       }
       
       
