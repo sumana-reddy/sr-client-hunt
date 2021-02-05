@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sumana-reddy/sr-client-hunt/issues"
   },
-  "homepage": "https://github.com/sumana-reddy/sr-client-hunt#readme"
+  "homepage": "https://github.com/sumana-reddy/sr-client-hunt#readme",
+  "dependencies": {
+    "@nestjs/typeorm": "^7.1.5",
+    "pg": "^8.5.1",
+    "typeorm": "^0.2.30"
+  }
 }
