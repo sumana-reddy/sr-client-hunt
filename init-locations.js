@@ -32,6 +32,13 @@ export default [
      Latitude: 16.918545,
     Longitude: 80.361114,
    
+      },
+      {
+      
+      Name: 'Horizons West',
+      Latitude: 40.356012,
+      longitude: -94.881485,
+      
       }
       
       
